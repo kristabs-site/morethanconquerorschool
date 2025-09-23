@@ -96,7 +96,6 @@ width: 30px;
 height: 30px;
 ${(props) => props.left ? "left: 8px;" : "right: 8px;"}
 }
-
 `;
 
 
