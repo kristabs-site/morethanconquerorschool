@@ -12,11 +12,11 @@ const ContactSection = () => {
 
   return (
     <ContactContainer id="contact">
-      <Logo 
-        src="/more2.png" 
-        alt="School Logo" 
-        onClick={handleLogoClick} 
-      />
+     <Logo
+  src={process.env.PUBLIC_URL + "/more2.png"}
+  alt="School Logo"
+  onClick={handleLogoClick}
+/>
       <Title>Contact Us</Title>
       <InfoWrapper>
         <InfoItem><strong>School:</strong> More than Conquerors School of Theology</InfoItem>

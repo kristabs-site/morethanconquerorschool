@@ -17,7 +17,7 @@ export const BannerBackground = styled.div`
 width: 100%;
 height: 100vh;
 padding: 0;
-background-image: url("/pictures/newbg.jpg");
+background-image: url(${process.env.PUBLIC_URL + '/pictures/newbg.jpg'});
 background-repeat: no-repeat;
 background-position: center;
 background-size: 100% 100%;
@@ -91,6 +91,7 @@ font-weight: bold;
 
 @media screen and (max-width: 760px){
 padding: 9px;
+margin-left: -25px;
 font-size: 15px;
 }
 `;
@@ -165,6 +166,7 @@ font-weight: bold;
 @media screen and (max-width: 760px){
 padding: 6px;
 font-size: 15px;
+margin-left: -25px;
 }
 `;
 export const ClickBox = styled.div`

@@ -79,7 +79,7 @@ right: 0;
 transform: translate(-100%, 60%);
 font-size: 1.8rem;
 cursor: pointer;
-color: #0b1221;
+color: #fff;
 }
 `;
 

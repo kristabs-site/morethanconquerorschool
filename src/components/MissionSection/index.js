@@ -86,7 +86,7 @@ const MissionSection = () => {
     }} > */}
               <StyledSlide index={0}>
                     <CardSection 
-                    image="/pictures/leader.jpg" 
+                 image={process.env.PUBLIC_URL + '/pictures/leader.jpg'}
                     name="Prof. Amb Samuel Udenze Nwambu"
                     title="Director"
                     quote={<>
@@ -107,7 +107,7 @@ const MissionSection = () => {
                  </StyledSlide>
                   <StyledSlide index={1}>
                     <CardSection  
-                    image="/pictures/rator.jpg" 
+                    image={process.env.PUBLIC_URL + '/pictures/rator.jpg'} 
                     name="Snr. Apostle Mozie Johnpaul"
                     title="School Rator"
                     quote={<>
@@ -127,8 +127,8 @@ const MissionSection = () => {
                     />
                  </StyledSlide>
                   <StyledSlide index={2}>
-                    <CardSection 
-                    image="/pictures/bish2.jpg" 
+                    <CardSection  
+                    image={process.env.PUBLIC_URL + '/pictures/bish2.jpg'}
                     name="Bishop Dr. Marcel Onuigbo"
                     title="Board of Regent"
                     quote={<>
@@ -146,7 +146,7 @@ const MissionSection = () => {
                  </StyledSlide>
                  <StyledSlide index={3}>
                     <CardSection  
-                    image="/pictures/doctor.jpg" 
+                    image={process.env.PUBLIC_URL + '/pictures/doctor.jpg'}
                     name="Dr. David Dick Nwolisa"
                     title="Board of Regent"
                     quote={<>
@@ -167,7 +167,7 @@ const MissionSection = () => {
                  </StyledSlide>
                  <StyledSlide index={4}>
                     <CardSection  
-                    image="/pictures/fac.jpg"  
+                    image={process.env.PUBLIC_URL + '/pictures/fac.jpg'}
                     name="Ven Oforkansi Alexander Emeka"
                     title="Dean of Faculty"
                     quote={<>
@@ -185,7 +185,7 @@ const MissionSection = () => {
                  </StyledSlide>
                  <StyledSlide index={5}>
                     <CardSection  
-                    image="/pictures/admin.jpg"
+                    image={process.env.PUBLIC_URL + '/pictures/admin.jpg'}
                     name="Prof. Okoye Comfort Uzoma"
                     title="Admin"
                     quote={<>

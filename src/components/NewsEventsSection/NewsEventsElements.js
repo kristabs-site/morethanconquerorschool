@@ -1,13 +1,13 @@
 import styled, { keyframes } from "styled-components";
 
-// Section Container
+
 export const Section = styled.section`
   padding: 60px 20px;
   background: linear-gradient(135deg, #fffaf0, #f0f9ff);
   text-align: center;
 `;
 
-// Title
+
 export const Title = styled.h2`
   font-size: 2.5rem;
   font-weight: bold;
@@ -15,14 +15,14 @@ export const Title = styled.h2`
   margin-bottom: 15px;
 `;
 
-// Subtitle
+
 export const Subtitle = styled.p`
   font-size: 1.1rem;
   color: #444;
   margin-bottom: 40px;
 `;
 
-// Tabs container
+
 export const Tabs = styled.div`
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@ export const Tabs = styled.div`
   gap: 15px;
 `;
 
-// Tab button
+
 export const TabButton = styled.button`
   background: ${(props) => (props.active ? "#4f46e5" : "#e0e7ff")};
   color: ${(props) => (props.active ? "#fff" : "#3730a3")};
@@ -48,14 +48,14 @@ export const TabButton = styled.button`
   }
 `;
 
-// Event grid
+
 export const EventGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 25px;
 `;
 
-// Event card
+
 export const EventCard = styled.div`
   background: #fff;
   border-radius: 15px;
@@ -68,7 +68,7 @@ export const EventCard = styled.div`
   }
 `;
 
-// Event Media (Image or Video)
+
 export const EventMedia = styled.div`
   width: 100%;
   height: ${(props) => (props.tall ? "400px" : "300px")}
@@ -90,7 +90,7 @@ export const EventMedia = styled.div`
   }
 `;
 
-// Event Details
+
 export const EventDetails = styled.div`
   padding: 15px;
   text-align: left;
@@ -134,7 +134,6 @@ export const Button = styled.button`
   }
 `;
 
-// Slide down for whole section
 export const StudentLifeWrapper = styled.div`
   max-height: ${(props) => (props.show ? "4000px" : "0")};
   opacity: ${(props) => (props.show ? "1" : "0")};

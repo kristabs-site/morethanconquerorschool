@@ -18,19 +18,18 @@ const Hero = styled.section`
   isolation: isolate;    /* ensures z-index stacking is clean */
 `;
 
-/* Full-viewport background image with top preserved */
 const Bg = styled.div`
   position: absolute;
   inset: 0;
   z-index: 0;
 
   /* Background layers */
-  background-image: 
-    linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0, 0, 0, 0.52)),
-    url("/pictures/newbg.jpg");
+  background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.52)),
+    url(${process.env.PUBLIC_URL + '/pictures/newbg.jpg'});
   background-position: top center;  /* keep top visible */
   background-repeat: no-repeat;
-  background-size: contain;           /* makes it responsive */
+  background-size: contain;           
   min-height: 100vh;
   width: 100%;
   background-color: #000;
@@ -39,8 +38,9 @@ const Bg = styled.div`
   background-position: center top; 
   background-size: contain;
   background-image: 
-    linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0, 0, 0, 0.52)),
-    url("/pictures/newbg.jpg");
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.52)),
+    url(${process.env.PUBLIC_URL + '/pictures/newbg.jpg'});
+     background-color: #000;
 }
   `;
 
@@ -88,12 +88,12 @@ const Heading = styled.h1`
 `;
 
 const Paragraph = styled.p`
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.8;
-  color: #000;
+  color: yellow;
   margin: 0 0 1rem 0;
   text-align: justify;
-  font-weight: 800;
+  font-weight: 700;
 
   @media (max-width: 768px) {
     font-size: 16px;
@@ -112,7 +112,7 @@ font-size: 1.1rem;
 
  export const Highlight = styled.span`
  font-weight: bold;
- color: #eee8aa;
+ color: #fff;
  `;
 
 const Buttons = styled.div`
@@ -168,7 +168,7 @@ const WelcomePage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.85, ease: "easeOut" }}
         >
-          <Logo src="/pictures/more2.png" alt="School Logo" />
+          <Logo src={process.env.PUBLIC_URL + '/pictures/more2.png'} alt="School Logo" />
           <Heading>Welcome to More Than Conquerors School of Theology</Heading>
 
           <Paragraph>
@@ -179,7 +179,7 @@ const WelcomePage = () => {
               </Highlight>, a community of faith where lives are transformed through
                the Word and Spirit of God. <br /> We also honour the { " "} 
                <Evangelistic>
-                 <img src="/evalogo1.png" alt="eva" width="50" height="50" />
+                 <img src={process.env.PUBLIC_URL + '/evalogo1.png'} alt="eva" width="50" height="50" />
                  <Highlight>Evangelistic Messangers Association</Highlight>
                  </Evangelistic> (founded since March 4, 
                  1933), a vibrant arm of the church under whose guidance and support

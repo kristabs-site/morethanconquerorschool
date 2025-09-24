@@ -18,13 +18,15 @@ const BannerSection = () => {
       <BackgroundFilter>
         <BannerContents>
       <BannerLogoContainer>
-         <BannerLogo1 img src="/assests/logo/more.png" alt="hr logo" />
+         <BannerLogo1 img
+  src={process.env.PUBLIC_URL + '/assets/logo/more.png'}
+  alt="hr logo" />
       <BannerH1>More Than Conquerors School of Theology</BannerH1>
       </BannerLogoContainer>
       <BannerH2>Dominion Theological College</BannerH2>
       <BannerP>Affiliated with the</BannerP>
       <BannerLogoContainer2>
-      <BannerLogo2 img src="/pictures/city.png" alt="more logo" />
+      <BannerLogo2 img src={process.env.PUBLIC_URL + '/pictures/city.png'} alt="more logo" />
       <BannerH11>City of Dominion Assembly
         <br></br>Int'l a.k.a City of Glory</BannerH11>
       </BannerLogoContainer2>

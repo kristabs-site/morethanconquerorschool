@@ -9,7 +9,7 @@ const Navbar = ({ toggle }) => {
     <Nav>
         <NavbarContainer>
             <LogoLink to="/"> 
-                <NavLogo img src="/more2.png" alt="Logo" />
+                <NavLogo img src={process.env.PUBLIC_URL + '/more2.png'} alt="Logo" />
             </LogoLink>
             <MobileIcon onClick={toggle}>
         <FaBars />
