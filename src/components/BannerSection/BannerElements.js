@@ -46,7 +46,7 @@ flex-direction: column;
 align-items: center;
 
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 768px){
 margin-left: 11em;
 }
 `;
@@ -54,14 +54,14 @@ margin-left: 11em;
 export const BannerLogoContainer = styled.div`
 display: flex;
 flex-direction: grid;
-width: 100vw;
+width: 100%;
 height: 10vh;
 justify-content: center;
 padding-top: 5em;
 margin-left: 14.5em;
 // position: relative;
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 768px){
 width: 80vw;
 height: 5vh;
 padding-top: 7em;
@@ -76,7 +76,7 @@ width: 5em;
 height: 5em;
 position: relative;
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 768px){
 width: 3em;
 height: 3em;
 margin-left: 5em;
@@ -89,7 +89,7 @@ font-size: 28px;
 color:#fff;
 font-weight: bold;
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 768px){
 padding: 9px;
 margin-left: -25px;
 font-size: 15px;
@@ -103,7 +103,7 @@ font-weight: bold;
 margin-top: 3em;
 margin-left: 9em;
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 768px){
 margin-left: -6em;
 margin-top: 4em;
 font-size: 14px;
@@ -117,7 +117,7 @@ font-weight: bold;
 margin-top: 1em;
 margin-left: 10em;
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 768px){
 padding-top: 0.1em;
 margin-left: -7em;
 font-size: 15px;
@@ -127,14 +127,14 @@ font-size: 15px;
 export const BannerLogoContainer2 = styled.div`
 display: flex;
 flex-direction: grid;
-width: 100vw;
+width: 100%;
 // height: 100px;
 justify-content: center;
 padding-top: 0.7em;
 margin-left: 15em;
 // position: relative;
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 768px){
 width: 80vw;
 height: 5vh;
 padding-top: 3em;
@@ -150,7 +150,7 @@ width: 5em;
 height: 5em;
 position: relative;
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 768px){
 width: 3em;
 height: 3em;
 margin-left: 3em;
@@ -163,7 +163,7 @@ font-size: 28px;
 color:#fff;
 font-weight: bold;
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 768px){
 padding: 6px;
 font-size: 15px;
 margin-left: -25px;
@@ -190,7 +190,7 @@ transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
-    margin-top: 14em;
+    margin-top: 16em;
   }
 `;
 

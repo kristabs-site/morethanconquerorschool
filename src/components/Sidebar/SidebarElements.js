@@ -9,6 +9,7 @@ position: fixed;
 z-index: 999;
 width: 100%;
 height: 100%;
+ max-width: 100%;
 background: #0d0d0d;
 display: grid;
 align-items: center;
@@ -42,8 +43,9 @@ grid-template-columns: 1fr;
 grid-template-rows: repeat(6, 80px);
 text-align: center;
 
-@media screen and (max-width: 480px);
+@media screen and (max-width: 480px){
 grid-template-rows: repeat(6, 60px);
+}
 `;
 
 export const SidebarLink = styled(LinkS)`
@@ -62,4 +64,8 @@ cursor: pointer;
 color: #01bf71;
 transition: 0.2 ease-in-out;
 }
+// @media screen and (max-width: 768px) {
+//   .sidebar {
+//     display: block;
+//   }
 `;
