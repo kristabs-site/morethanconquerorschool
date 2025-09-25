@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/morethanconquerorschool/static/css/main.24955b34.css",
-    "main.js": "/morethanconquerorschool/static/js/main.a30a7256.js",
+    "main.js": "/morethanconquerorschool/static/js/main.a84cdf0a.js",
     "index.html": "/morethanconquerorschool/index.html",
     "main.24955b34.css.map": "/morethanconquerorschool/static/css/main.24955b34.css.map",
-    "main.a30a7256.js.map": "/morethanconquerorschool/static/js/main.a30a7256.js.map"
+    "main.a84cdf0a.js.map": "/morethanconquerorschool/static/js/main.a84cdf0a.js.map"
   },
   "entrypoints": [
     "static/css/main.24955b34.css",
-    "static/js/main.a30a7256.js"
+    "static/js/main.a84cdf0a.js"
   ]
 }
